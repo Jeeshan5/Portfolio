@@ -27,22 +27,28 @@ const Contact = () => {
     });
   };
 
+
+  //template_bdwtzcl
+  //service_qj55l3b
+  //FEIIo54XBVyPm_RlV
+
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
 
     emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+      .send('service_qj55l3b',
+        'template_bdwtzcl',
+       
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Jeeshan",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "jeeme1004@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'akApMeKwwKO5auprp'
       )
       .then(
         () => {
