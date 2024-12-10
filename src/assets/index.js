@@ -32,11 +32,19 @@ import leetcode from "./tech/leetcode.png"
 
 
 import carrent from "./carrent.png";
+import notes from "./Notes-App.png";
 import youtube from "./Youtube-clone.png";
+import TicTacToe from "./Tic-Tac-Toe.png";
+import RockPaperScissor from "./Rock-paper-Scissor.png"
+import weatherApp from "./Weather-app.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  notes,
+  RockPaperScissor,
+  weatherApp,
+  TicTacToe,
   leetcode,
   youtube,
   logo,

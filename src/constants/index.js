@@ -28,6 +28,11 @@ import {
     tripguide,
     threejs,
     youtube,
+    weatherApp,
+    notes,
+    TicTacToe,
+    RockPaperScissor,
+
   } from "../assets";
   
   export const navLinks = [
@@ -225,37 +230,59 @@ import {
       source_code_link: "https://github.com/Jeeshan5/youtube-clone.git",
     },
     {
-      name: "Job IT",
+      name: "TicTacToe",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "It is a simple game of Tic Tac Toe in which javaScript has been implemented ",
+      tags: [
+        {
+          name: "Html",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javaScript",
+          color: "blue-text-gradient",
+        },
+       
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: TicTacToe,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Targets",
+      description:
+        "this a notes app in which we can store our day to day task .It also have cloud data storage (your notes will be safe even after you refresh the page.)  ",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:notes,
+      source_code_link: "https://github.com/Jeeshan5/notes-app.git",
+    },
+    {
+      name: "MyWeather",
+      description:
+        "It fetches weather conditions based on their current location.Easy layout have been used for easier usage .I have used Myweather API for fetching weather conditions ",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "OpenWeatherMap",
           color: "green-text-gradient",
         },
         {
@@ -263,9 +290,11 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image:weatherApp,
+      source_code_link: "https://github.com/Jeeshan5/weather-app.git",
     },
+    
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };
