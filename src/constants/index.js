@@ -137,10 +137,21 @@ import {
       iconBg: "#383E56",
       date: "Nov 2024 - Till Date",
       points: [
-        "I have started learning react.js recently and  i have buitlt as and weather app using it  ",
+        "I have started learning react.js recently and  i have built a number of projects in it   ",
         " My aim is Developing and maintaining web applications using React.js and other related technologies.",
         ,
        ,
+      ],
+    },
+    {
+      title: "Web Developer",
+      site_name: "JavaScipt",
+      icon: javascript,
+      iconBg: "#383E56",
+      date: "September 2024 ",
+      points: [
+        "Developing and maintaining web applications using JavaScript and other related technologies.",
+        
       ],
     },
     {
@@ -154,17 +165,7 @@ import {
         "I have id on LeetCode and HackerRank",
       ],
     },
-    {
-      title: "Web Developer",
-      site_name: "Weather-App",
-      icon: weather,
-      iconBg: "#383E56",
-      date: "June 2024 - Till",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "I have used weather app api in it ",
-      ],
-    },
+    
     // {
     //   title: "Full stack Developer",
     //   company_name: "Meta",
