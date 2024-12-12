@@ -88,6 +88,10 @@ import {
     //   icon: typescript,
     // },
     {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    {
       name: "React JS",
       icon: reactjs,
     },
@@ -95,10 +99,7 @@ import {
     //   name: "Redux Toolkit",
     //   icon: redux,
     // },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
+   
     {
       name: "LEETCODE ",
       icon: leetcode,
