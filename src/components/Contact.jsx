@@ -30,11 +30,6 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-<<<<<<< HEAD
-
-=======
-  
->>>>>>> aad1c9d4e900ce6d87d4495c3dd70d9c15136c05
     // Verify environment variables
     console.log(import.meta.env.VITE_APP_EMAILJS_SERVICE_ID);
     console.log(import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID);
