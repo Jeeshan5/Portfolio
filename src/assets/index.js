@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./jlogo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -32,7 +32,7 @@ import leetcode from "./tech/leetcode.png"
 
 
 import carrent from "./carrent.png";
-import notes from "./Notes-App.png";
+import notes from "./Notes-app.png";
 import youtube from "./Youtube-clone.png";
 import TicTacToe from "./Tic-Tac-Toe.png";
 import RockPaperScissor from "./Rock-paper-Scissor.png"

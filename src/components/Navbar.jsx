@@ -42,7 +42,7 @@ useEffect(() => {
           window.scrollTo(0,0)
         }}>
           
-          <img src="src\assets\photos\jlogo.png" alt="logo" className="W-8 h-8 object-contain "/>
+          <img src={logo} alt="logo" className="W-8 h-8 object-contain "/>
           <p className="text-white text-[18px] font-bold cursor-pointer flex"> Jeeshan &nbsp;<span className='sm:block hidden'>|&nbsp; Portfolio</span></p>
           </Link>
         

@@ -15,9 +15,12 @@ const Hero = () => {
     </div>
     <div>
       <h1 className={`${styles.heroHeadText} text-white`}>Hi ,I'm <span className="text-[#915eff]">Jeeshan</span></h1>
+       <p  className={`${styles.heroSubText}mt-2 text-white-100`}>I am a student at AKgec Ghaziabad
+        .Pursuing Btech from Cse branch</p> 
+
       {/* <p className={`${styles.heroSubText}mt-2 text-white-100`}>I am a full stack developer andpursuising engineering from<br className="sm:block hidden"/> */}
       
-      <p  className={`${styles.heroSubText}mt-2 text-white-100`}>From Ajay Kumar garg Engineering College</p> 
+      {/* <p  className={`${styles.heroSubText}mt-2 text-white-100`}>From Ajay Kumar garg Engineering College</p>  */}
       
       
     </div>

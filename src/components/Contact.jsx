@@ -27,16 +27,14 @@ const Contact = () => {
     });
   };
 
-
-  //template_bdwtzcl
-  //service_qj55l3b
-  //FEIIo54XBVyPm_RlV
-
-
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> aad1c9d4e900ce6d87d4495c3dd70d9c15136c05
     // Verify environment variables
     console.log(import.meta.env.VITE_APP_EMAILJS_SERVICE_ID);
     console.log(import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID);
@@ -59,7 +57,7 @@ const Contact = () => {
         () => {
           setLoading(false);
           alert("Thank you. I will get back to you as soon as possible.");
-
+  
           setForm({
             name: "",
             email: "",
@@ -69,7 +67,7 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.error(error);
-
+  
           alert("Ahh, something went wrong. Please try again.");
         }
       );
