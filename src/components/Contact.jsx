@@ -37,10 +37,15 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    // Verify environment variables
+    console.log(import.meta.env.VITE_APP_EMAILJS_SERVICE_ID);
+    console.log(import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID);
+    console.log(import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY);
+  
     emailjs
-      .send('service_qj55l3b',
-        'template_bdwtzcl',
-       
+      .send(
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Jeeshan",
@@ -48,7 +53,7 @@ const Contact = () => {
           to_email: "jeeme1004@gmail.com",
           message: form.message,
         },
-        'akApMeKwwKO5auprp'
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
